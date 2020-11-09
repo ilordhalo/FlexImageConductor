@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3041D77A2559AFA800C0288B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D7792559AFA800C0288B /* AppDelegate.m */; };
+		3041D77D2559AFA800C0288B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D77C2559AFA800C0288B /* ViewController.m */; };
+		3041D77F2559AFA900C0288B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3041D77E2559AFA900C0288B /* Assets.xcassets */; };
+		3041D7822559AFA900C0288B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3041D7802559AFA900C0288B /* Main.storyboard */; };
+		3041D7852559AFA900C0288B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D7842559AFA900C0288B /* main.m */; };
+		3041D7902559AFAA00C0288B /* FlexImageConductorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D78F2559AFAA00C0288B /* FlexImageConductorTests.m */; };
+		3041D79B2559AFAA00C0288B /* FlexImageConductorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D79A2559AFAA00C0288B /* FlexImageConductorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3041D78C2559AFAA00C0288B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3041D76D2559AFA800C0288B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3041D7742559AFA800C0288B;
+			remoteInfo = FlexImageConductor;
+		};
+		3041D7972559AFAA00C0288B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3041D76D2559AFA800C0288B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3041D7742559AFA800C0288B;
+			remoteInfo = FlexImageConductor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3041D7752559AFA800C0288B /* FlexImageConductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexImageConductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3041D7782559AFA800C0288B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3041D7792559AFA800C0288B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3041D77B2559AFA800C0288B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3041D77C2559AFA800C0288B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3041D77E2559AFA900C0288B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3041D7812559AFA900C0288B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3041D7832559AFA900C0288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3041D7842559AFA900C0288B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3041D7862559AFA900C0288B /* FlexImageConductor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlexImageConductor.entitlements; sourceTree = "<group>"; };
+		3041D78B2559AFAA00C0288B /* FlexImageConductorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexImageConductorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3041D78F2559AFAA00C0288B /* FlexImageConductorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexImageConductorTests.m; sourceTree = "<group>"; };
+		3041D7912559AFAA00C0288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3041D7962559AFAA00C0288B /* FlexImageConductorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexImageConductorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3041D79A2559AFAA00C0288B /* FlexImageConductorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexImageConductorUITests.m; sourceTree = "<group>"; };
+		3041D79C2559AFAA00C0288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3041D7722559AFA800C0288B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3041D7882559AFAA00C0288B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3041D7932559AFAA00C0288B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3041D76C2559AFA800C0288B = {
+			isa = PBXGroup;
+			children = (
+				3041D7772559AFA800C0288B /* FlexImageConductor */,
+				3041D78E2559AFAA00C0288B /* FlexImageConductorTests */,
+				3041D7992559AFAA00C0288B /* FlexImageConductorUITests */,
+				3041D7762559AFA800C0288B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3041D7762559AFA800C0288B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3041D7752559AFA800C0288B /* FlexImageConductor.app */,
+				3041D78B2559AFAA00C0288B /* FlexImageConductorTests.xctest */,
+				3041D7962559AFAA00C0288B /* FlexImageConductorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3041D7772559AFA800C0288B /* FlexImageConductor */ = {
+			isa = PBXGroup;
+			children = (
+				3041D7782559AFA800C0288B /* AppDelegate.h */,
+				3041D7792559AFA800C0288B /* AppDelegate.m */,
+				3041D77B2559AFA800C0288B /* ViewController.h */,
+				3041D77C2559AFA800C0288B /* ViewController.m */,
+				3041D77E2559AFA900C0288B /* Assets.xcassets */,
+				3041D7802559AFA900C0288B /* Main.storyboard */,
+				3041D7832559AFA900C0288B /* Info.plist */,
+				3041D7842559AFA900C0288B /* main.m */,
+				3041D7862559AFA900C0288B /* FlexImageConductor.entitlements */,
+			);
+			path = FlexImageConductor;
+			sourceTree = "<group>";
+		};
+		3041D78E2559AFAA00C0288B /* FlexImageConductorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3041D78F2559AFAA00C0288B /* FlexImageConductorTests.m */,
+				3041D7912559AFAA00C0288B /* Info.plist */,
+			);
+			path = FlexImageConductorTests;
+			sourceTree = "<group>";
+		};
+		3041D7992559AFAA00C0288B /* FlexImageConductorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3041D79A2559AFAA00C0288B /* FlexImageConductorUITests.m */,
+				3041D79C2559AFAA00C0288B /* Info.plist */,
+			);
+			path = FlexImageConductorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3041D7742559AFA800C0288B /* FlexImageConductor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3041D79F2559AFAA00C0288B /* Build configuration list for PBXNativeTarget "FlexImageConductor" */;
+			buildPhases = (
+				3041D7712559AFA800C0288B /* Sources */,
+				3041D7722559AFA800C0288B /* Frameworks */,
+				3041D7732559AFA800C0288B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexImageConductor;
+			productName = FlexImageConductor;
+			productReference = 3041D7752559AFA800C0288B /* FlexImageConductor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3041D78A2559AFAA00C0288B /* FlexImageConductorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3041D7A22559AFAA00C0288B /* Build configuration list for PBXNativeTarget "FlexImageConductorTests" */;
+			buildPhases = (
+				3041D7872559AFAA00C0288B /* Sources */,
+				3041D7882559AFAA00C0288B /* Frameworks */,
+				3041D7892559AFAA00C0288B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3041D78D2559AFAA00C0288B /* PBXTargetDependency */,
+			);
+			name = FlexImageConductorTests;
+			productName = FlexImageConductorTests;
+			productReference = 3041D78B2559AFAA00C0288B /* FlexImageConductorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3041D7952559AFAA00C0288B /* FlexImageConductorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3041D7A52559AFAA00C0288B /* Build configuration list for PBXNativeTarget "FlexImageConductorUITests" */;
+			buildPhases = (
+				3041D7922559AFAA00C0288B /* Sources */,
+				3041D7932559AFAA00C0288B /* Frameworks */,
+				3041D7942559AFAA00C0288B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3041D7982559AFAA00C0288B /* PBXTargetDependency */,
+			);
+			name = FlexImageConductorUITests;
+			productName = FlexImageConductorUITests;
+			productReference = 3041D7962559AFAA00C0288B /* FlexImageConductorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3041D76D2559AFA800C0288B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "张家豪";
+				TargetAttributes = {
+					3041D7742559AFA800C0288B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					3041D78A2559AFAA00C0288B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 3041D7742559AFA800C0288B;
+					};
+					3041D7952559AFAA00C0288B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 3041D7742559AFA800C0288B;
+					};
+				};
+			};
+			buildConfigurationList = 3041D7702559AFA800C0288B /* Build configuration list for PBXProject "FlexImageConductor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3041D76C2559AFA800C0288B;
+			productRefGroup = 3041D7762559AFA800C0288B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3041D7742559AFA800C0288B /* FlexImageConductor */,
+				3041D78A2559AFAA00C0288B /* FlexImageConductorTests */,
+				3041D7952559AFAA00C0288B /* FlexImageConductorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3041D7732559AFA800C0288B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3041D77F2559AFA900C0288B /* Assets.xcassets in Resources */,
+				3041D7822559AFA900C0288B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3041D7892559AFAA00C0288B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3041D7942559AFAA00C0288B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3041D7712559AFA800C0288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3041D77D2559AFA800C0288B /* ViewController.m in Sources */,
+				3041D7852559AFA900C0288B /* main.m in Sources */,
+				3041D77A2559AFA800C0288B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3041D7872559AFAA00C0288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3041D7902559AFAA00C0288B /* FlexImageConductorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3041D7922559AFAA00C0288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3041D79B2559AFAA00C0288B /* FlexImageConductorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3041D78D2559AFAA00C0288B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3041D7742559AFA800C0288B /* FlexImageConductor */;
+			targetProxy = 3041D78C2559AFAA00C0288B /* PBXContainerItemProxy */;
+		};
+		3041D7982559AFAA00C0288B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3041D7742559AFA800C0288B /* FlexImageConductor */;
+			targetProxy = 3041D7972559AFAA00C0288B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3041D7802559AFA900C0288B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3041D7812559AFA900C0288B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3041D79D2559AFAA00C0288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3041D79E2559AFAA00C0288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3041D7A02559AFAA00C0288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlexImageConductor/FlexImageConductor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlexImageConductor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iLord.FlexImageConductor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3041D7A12559AFAA00C0288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlexImageConductor/FlexImageConductor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlexImageConductor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iLord.FlexImageConductor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3041D7A32559AFAA00C0288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlexImageConductorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iLord.FlexImageConductorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexImageConductor.app/Contents/MacOS/FlexImageConductor";
+			};
+			name = Debug;
+		};
+		3041D7A42559AFAA00C0288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlexImageConductorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iLord.FlexImageConductorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexImageConductor.app/Contents/MacOS/FlexImageConductor";
+			};
+			name = Release;
+		};
+		3041D7A62559AFAA00C0288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlexImageConductorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iLord.FlexImageConductorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlexImageConductor;
+			};
+			name = Debug;
+		};
+		3041D7A72559AFAA00C0288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlexImageConductorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iLord.FlexImageConductorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlexImageConductor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3041D7702559AFA800C0288B /* Build configuration list for PBXProject "FlexImageConductor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3041D79D2559AFAA00C0288B /* Debug */,
+				3041D79E2559AFAA00C0288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3041D79F2559AFAA00C0288B /* Build configuration list for PBXNativeTarget "FlexImageConductor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3041D7A02559AFAA00C0288B /* Debug */,
+				3041D7A12559AFAA00C0288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3041D7A22559AFAA00C0288B /* Build configuration list for PBXNativeTarget "FlexImageConductorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3041D7A32559AFAA00C0288B /* Debug */,
+				3041D7A42559AFAA00C0288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3041D7A52559AFAA00C0288B /* Build configuration list for PBXNativeTarget "FlexImageConductorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3041D7A62559AFAA00C0288B /* Debug */,
+				3041D7A72559AFAA00C0288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3041D76D2559AFA800C0288B /* Project object */;
+}
