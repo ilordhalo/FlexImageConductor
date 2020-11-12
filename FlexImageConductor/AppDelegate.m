@@ -23,5 +23,10 @@
     // Insert code here to tear down your application
 }
 
+- (void)application:(NSApplication *)theApplication openFiles:(NSArray *)filenames
+{
+    
+}
+
 
 @end

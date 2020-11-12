@@ -32,5 +32,24 @@
 	<true/>
 	<key>NSSupportsSuddenTermination</key>
 	<true/>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>*</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Folder</string>
+            <key>CFBundleTypeOSTypes</key>
+            <array>
+                <string>****</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSTypeIsPackage</key>
+            <false/>
+        </dict>
+    </array>
 </dict>
 </plist>

@@ -14,6 +14,7 @@
 		3041D7852559AFA900C0288B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D7842559AFA900C0288B /* main.m */; };
 		3041D7902559AFAA00C0288B /* FlexImageConductorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D78F2559AFAA00C0288B /* FlexImageConductorTests.m */; };
 		3041D79B2559AFAA00C0288B /* FlexImageConductorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D79A2559AFAA00C0288B /* FlexImageConductorUITests.m */; };
+		3041D7AA2559B6C300C0288B /* IESLiveDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D7A92559B6C300C0288B /* IESLiveDropView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		3041D7962559AFAA00C0288B /* FlexImageConductorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexImageConductorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3041D79A2559AFAA00C0288B /* FlexImageConductorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexImageConductorUITests.m; sourceTree = "<group>"; };
 		3041D79C2559AFAA00C0288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3041D7A82559B6C300C0288B /* IESLiveDropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveDropView.h; sourceTree = "<group>"; };
+		3041D7A92559B6C300C0288B /* IESLiveDropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLiveDropView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				3041D7792559AFA800C0288B /* AppDelegate.m */,
 				3041D77B2559AFA800C0288B /* ViewController.h */,
 				3041D77C2559AFA800C0288B /* ViewController.m */,
+				3041D7A82559B6C300C0288B /* IESLiveDropView.h */,
+				3041D7A92559B6C300C0288B /* IESLiveDropView.m */,
 				3041D77E2559AFA900C0288B /* Assets.xcassets */,
 				3041D7802559AFA900C0288B /* Main.storyboard */,
 				3041D7832559AFA900C0288B /* Info.plist */,
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3041D77D2559AFA800C0288B /* ViewController.m in Sources */,
+				3041D7AA2559B6C300C0288B /* IESLiveDropView.m in Sources */,
 				3041D7852559AFA900C0288B /* main.m in Sources */,
 				3041D77A2559AFA800C0288B /* AppDelegate.m in Sources */,
 			);

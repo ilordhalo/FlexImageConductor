@@ -8,12 +8,16 @@
 
 #import "ViewController.h"
 
-@implementation ViewController
+#import "IESLiveDropView.h"
+
+@implementation ViewController 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    IESLiveDropView *view = [[IESLiveDropView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:view];
 }
 
 
