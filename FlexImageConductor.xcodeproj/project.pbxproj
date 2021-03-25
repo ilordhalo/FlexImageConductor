@@ -15,6 +15,14 @@
 		3041D7902559AFAA00C0288B /* FlexImageConductorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D78F2559AFAA00C0288B /* FlexImageConductorTests.m */; };
 		3041D79B2559AFAA00C0288B /* FlexImageConductorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D79A2559AFAA00C0288B /* FlexImageConductorUITests.m */; };
 		3041D7AA2559B6C300C0288B /* IESLiveDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041D7A92559B6C300C0288B /* IESLiveDropView.m */; };
+		771F956B25C9620D0089B431 /* IESLiveFlexImageControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F956A25C9620D0089B431 /* IESLiveFlexImageControllerView.m */; };
+		7755CF9A25D1256B0051B8BB /* IESLiveColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7755CF9925D1256B0051B8BB /* IESLiveColorView.m */; };
+		7755CFA025D1297B0051B8BB /* IESLiveControllerAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7755CF9F25D1297B0051B8BB /* IESLiveControllerAreaView.m */; };
+		7755D57C25D14C500051B8BB /* IESLiveControllerPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7755D57B25D14C500051B8BB /* IESLiveControllerPreviewView.m */; };
+		7755D58225D15FCE0051B8BB /* IESLiveFlexImagePreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7755D58125D15FCE0051B8BB /* IESLiveFlexImagePreviewView.m */; };
+		7755D59125D171A50051B8BB /* IESLiveOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7755D59025D171A50051B8BB /* IESLiveOperationView.m */; };
+		7784223025FE0DB60054A9ED /* IESLivePathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784222F25FE0DB60054A9ED /* IESLivePathView.m */; };
+		77CFC44325F0DD5D0074229D /* IESLiveFlexImageControllerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CFC44225F0DD5D0074229D /* IESLiveFlexImageControllerViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,23 @@
 		3041D79C2559AFAA00C0288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3041D7A82559B6C300C0288B /* IESLiveDropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveDropView.h; sourceTree = "<group>"; };
 		3041D7A92559B6C300C0288B /* IESLiveDropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLiveDropView.m; sourceTree = "<group>"; };
+		771F956925C9620C0089B431 /* IESLiveFlexImageControllerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveFlexImageControllerView.h; sourceTree = "<group>"; };
+		771F956A25C9620D0089B431 /* IESLiveFlexImageControllerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLiveFlexImageControllerView.m; sourceTree = "<group>"; };
+		7755CF9825D1256B0051B8BB /* IESLiveColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveColorView.h; sourceTree = "<group>"; };
+		7755CF9925D1256B0051B8BB /* IESLiveColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLiveColorView.m; sourceTree = "<group>"; };
+		7755CF9E25D1297B0051B8BB /* IESLiveControllerAreaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveControllerAreaView.h; sourceTree = "<group>"; };
+		7755CF9F25D1297B0051B8BB /* IESLiveControllerAreaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLiveControllerAreaView.m; sourceTree = "<group>"; };
+		7755D57A25D14C500051B8BB /* IESLiveControllerPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveControllerPreviewView.h; sourceTree = "<group>"; };
+		7755D57B25D14C500051B8BB /* IESLiveControllerPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLiveControllerPreviewView.m; sourceTree = "<group>"; };
+		7755D58025D15FCE0051B8BB /* IESLiveFlexImagePreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveFlexImagePreviewView.h; sourceTree = "<group>"; };
+		7755D58125D15FCE0051B8BB /* IESLiveFlexImagePreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLiveFlexImagePreviewView.m; sourceTree = "<group>"; };
+		7755D58F25D171A50051B8BB /* IESLiveOperationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveOperationView.h; sourceTree = "<group>"; };
+		7755D59025D171A50051B8BB /* IESLiveOperationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLiveOperationView.m; sourceTree = "<group>"; };
+		7784222E25FE0DB60054A9ED /* IESLivePathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLivePathView.h; sourceTree = "<group>"; };
+		7784222F25FE0DB60054A9ED /* IESLivePathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLivePathView.m; sourceTree = "<group>"; };
+		77CFC44125F0DD5D0074229D /* IESLiveFlexImageControllerViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveFlexImageControllerViewModel.h; sourceTree = "<group>"; };
+		77CFC44225F0DD5D0074229D /* IESLiveFlexImageControllerViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IESLiveFlexImageControllerViewModel.m; sourceTree = "<group>"; };
+		77CFC44725F0DE8F0074229D /* IESLiveFICDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IESLiveFICDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +132,25 @@
 				3041D7792559AFA800C0288B /* AppDelegate.m */,
 				3041D77B2559AFA800C0288B /* ViewController.h */,
 				3041D77C2559AFA800C0288B /* ViewController.m */,
+				77CFC44725F0DE8F0074229D /* IESLiveFICDefine.h */,
+				77CFC44125F0DD5D0074229D /* IESLiveFlexImageControllerViewModel.h */,
+				77CFC44225F0DD5D0074229D /* IESLiveFlexImageControllerViewModel.m */,
+				771F956925C9620C0089B431 /* IESLiveFlexImageControllerView.h */,
+				771F956A25C9620D0089B431 /* IESLiveFlexImageControllerView.m */,
+				7755CF9E25D1297B0051B8BB /* IESLiveControllerAreaView.h */,
+				7755CF9F25D1297B0051B8BB /* IESLiveControllerAreaView.m */,
+				7755D57A25D14C500051B8BB /* IESLiveControllerPreviewView.h */,
+				7755D57B25D14C500051B8BB /* IESLiveControllerPreviewView.m */,
+				7755D58025D15FCE0051B8BB /* IESLiveFlexImagePreviewView.h */,
+				7755D58125D15FCE0051B8BB /* IESLiveFlexImagePreviewView.m */,
 				3041D7A82559B6C300C0288B /* IESLiveDropView.h */,
 				3041D7A92559B6C300C0288B /* IESLiveDropView.m */,
+				7755D58F25D171A50051B8BB /* IESLiveOperationView.h */,
+				7755D59025D171A50051B8BB /* IESLiveOperationView.m */,
+				7784222E25FE0DB60054A9ED /* IESLivePathView.h */,
+				7784222F25FE0DB60054A9ED /* IESLivePathView.m */,
+				7755CF9825D1256B0051B8BB /* IESLiveColorView.h */,
+				7755CF9925D1256B0051B8BB /* IESLiveColorView.m */,
 				3041D77E2559AFA900C0288B /* Assets.xcassets */,
 				3041D7802559AFA900C0288B /* Main.storyboard */,
 				3041D7832559AFA900C0288B /* Info.plist */,
@@ -266,9 +308,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3041D77D2559AFA800C0288B /* ViewController.m in Sources */,
+				7755D58225D15FCE0051B8BB /* IESLiveFlexImagePreviewView.m in Sources */,
 				3041D7AA2559B6C300C0288B /* IESLiveDropView.m in Sources */,
 				3041D7852559AFA900C0288B /* main.m in Sources */,
+				7755D57C25D14C500051B8BB /* IESLiveControllerPreviewView.m in Sources */,
+				7784223025FE0DB60054A9ED /* IESLivePathView.m in Sources */,
+				771F956B25C9620D0089B431 /* IESLiveFlexImageControllerView.m in Sources */,
+				7755CFA025D1297B0051B8BB /* IESLiveControllerAreaView.m in Sources */,
+				7755CF9A25D1256B0051B8BB /* IESLiveColorView.m in Sources */,
+				7755D59125D171A50051B8BB /* IESLiveOperationView.m in Sources */,
 				3041D77A2559AFA800C0288B /* AppDelegate.m in Sources */,
+				77CFC44325F0DD5D0074229D /* IESLiveFlexImageControllerViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
